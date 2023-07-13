@@ -37,9 +37,7 @@
     height: 5.3rem;
 }
 /*SECTION IMFORMATION AND SUPORT*/
-.container_information{
-    height:368px ;
-}
+
 .box_information {
 padding-top: 5rem ;
 }
@@ -74,3 +72,11 @@ nav ul li a{
 
 
 /*FOOTER*/
+.box_footer h5 {
+font-size: 1.5rem;
+
+}
+.box_footer .box_networks a{
+font-size: 22px;
+margin-left: 1rem;
+}

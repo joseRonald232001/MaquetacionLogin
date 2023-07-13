@@ -103,6 +103,8 @@ font-size: 1.6rem;
 .container_information{
     background:#EAF2FD;
     padding-bottom: 1rem;
+    min-height: 368px;
+    height:auto;
 }
 
 .form_suport input {
@@ -139,10 +141,9 @@ nav ul li a:hover{
     height: 10rem;
     text-align: center;
 }
-.box_footer h3{
-    font-size: 17px;
+.box_footer h5 {
+color:rgb(70, 70, 70);
 }
-.box_footer .box_networks{
-font-size: 1.6rem;
-margin: 0 1rem;
+.box_footer .box_networks a{
+font-size: 18px;
 }
