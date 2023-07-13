@@ -137,6 +137,7 @@ nav ul li a:hover{
     letter-spacing: 1.5px;
     align-items: center;
     height: 10rem;
+    text-align: center;
 }
 .box_footer h3{
     font-size: 17px;

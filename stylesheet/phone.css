@@ -89,4 +89,9 @@ height: 5.1rem;
 /*FOOOTER*/
 .box_footer{
     height: 7rem;
+    flex-direction: column;
+    border: 1px solid red;
+    line-height: 1.5;
+    text-align: center;
+    
 }
