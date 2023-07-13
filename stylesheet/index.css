@@ -102,7 +102,9 @@ font-size: 1.6rem;
 
 .container_information{
     background:#EAF2FD;
+    padding-bottom: 1rem;
 }
+
 .form_suport input {
    background: var(--white);
    border-radius: 7px;
@@ -130,3 +132,16 @@ nav ul li a:hover{
 }
 
 /*FOOOTER*/
+.box_footer{
+    justify-content: center;
+    letter-spacing: 1.5px;
+    align-items: center;
+    height: 10rem;
+}
+.box_footer h3{
+    font-size: 17px;
+}
+.box_footer .box_networks{
+font-size: 2rem;
+margin: 0 1rem;
+}

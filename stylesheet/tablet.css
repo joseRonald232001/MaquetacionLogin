@@ -29,7 +29,7 @@
 .box_form_login{
     width: 27.5;
     height: 18.9rem;
-    margin:11.7 auto;
+    margin:12rem auto;
     padding: 0 1.5rem;
     font-size: 19px;
 }
@@ -71,3 +71,8 @@ nav ul li a{
        width:16.5rem;
        height: 5.1rem;
    }
+
+
+   .box_footer{
+    height: 8rem;
+}
