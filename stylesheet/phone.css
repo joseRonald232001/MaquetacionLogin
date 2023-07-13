@@ -3,7 +3,7 @@
 }
 /*SECTION HEADER*/
 .box_header{
-    height: 5rem;
+    height: 6.2rem;
 }
 .box_logo{
     height: 5rem;
@@ -30,19 +30,18 @@ span{
     display: block !important;
     margin-left: 2%;
     font-size: large;
-    
 }
 
 /*SECTION FORMULARIO LOGIN*/
 .box_form_login{
     width: 27.5;
     height: 18.9rem;
-    margin:15.9rem auto 3rem;
+    margin:5rem auto;
     padding: 0 2.5rem;
     font: 18.9px;
 }
 .box_form_login input{
-    height: 4.1rem;
+    height: 5rem;
 }
 .box_form_login button{
     width: 10.9rem;
