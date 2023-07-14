@@ -99,3 +99,23 @@ height: 5.1rem;
 .box_footer .box_networks a{
 font-size: 20px;
 }
+
+/*SECTION PRODUCTS*/
+
+/*BOX BANNER*/
+
+.box_banner{
+    height: 192px;
+    line-height: 1.5;
+}
+.box_text_banner h1{
+    font-size: 3rem;
+}
+.box_text_banner h2{
+    font-size: 1.5rem;
+}
+.box_text_banner button{
+    color: var(--white);
+    background: var(--blue);
+    padding: 1rem 2rem;
+}

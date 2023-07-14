@@ -34,7 +34,7 @@
     font-size: 19px;
 }
 .box_form_login input{
-    height: 4.1rem;
+    height: 5rem;
 }
 .box_form_login button{
     width: 10.9rem;
@@ -83,4 +83,23 @@ font-size: 1.3rem;
 .box_footer .box_networks a{
 font-size: 22px;
 margin-left: .5rem;
+}
+
+/*SECTION PRODUCTS*/
+
+/*BOX BANNER*/
+.box_banner{
+    height: 27.2rem;
+    line-height: 1.5;
+}
+.box_text_banner h1{
+    font-size: 1.9rem;
+}
+.box_text_banner h2{
+    font-size: 1.5rem;
+}
+.box_text_banner button{
+    color: var(--white);
+    background: var(--blue);
+    padding: 1rem 2rem;
 }

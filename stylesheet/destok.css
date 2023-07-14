@@ -2,7 +2,9 @@
     max-width: 1950px;
     padding: 0 5rem;
 }
-
+html{
+    font-size: 62.5%;
+}
 /*SECTION HEADER*/
 .box_header{
     height: 9.5rem;
@@ -42,7 +44,7 @@
 padding-top: 5rem ;
 }
 .box_information  picture img{
-    width: 17rem;
+    width: 17.6rem;
     margin-right:3rem;
 }
 nav{
@@ -70,7 +72,6 @@ nav ul li a{
     height: 5.1rem;
 }
 
-
 /*FOOTER*/
 .box_footer h5 {
 font-size: 1.5rem;
@@ -79,4 +80,25 @@ font-size: 1.5rem;
 .box_footer .box_networks a{
 font-size: 22px;
 margin-left: 1rem;
+}
+
+/*SECTION PRODUCTS*/
+
+/*BOX BANNER*/
+.box_banner{
+    height: 30rem;
+}
+.box_text_banner {
+line-height: 1.5;
+}
+.box_text_banner h1{
+    font-size: 5rem;
+}
+.box_text_banner h2{
+    font-size: 2.2rem;
+}
+.box_text_banner button{
+    color: var(--white);
+    background: var(--blue);
+    padding: 1.5rem 2rem;
 }
