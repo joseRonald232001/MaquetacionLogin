@@ -166,7 +166,6 @@ font-size: 18px;
 .box_text_banner {
 width: 100%;
 margin-bottom:1.5rem;
-
 }
 .box_text_banner button{
     margin-top: .5rem;
@@ -179,3 +178,27 @@ margin-bottom:1.5rem;
  }
  
 
+/*BOX_FORM_PRODUCTS*/
+
+.box_form_products form{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box_form_products form input{
+    background: var(--white);
+    padding:0  1rem;
+    box-shadow: 2px 2px 5px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 2px 5px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 5px -2px rgba(0,0,0,0.75);
+    border-radius: 7px;
+}
+.box_form_products form button{
+    background: var(--blue);
+    color: var(--white);
+}
+input[type="text"]::placeholder {
+position: absolute;
+top: 10%;
+}
