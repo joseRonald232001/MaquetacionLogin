@@ -22,7 +22,8 @@ html{
 }
 body{
     background: #F5F5F5;
-    text-rendering: optimizeLegibility;
+  // background:gray;
+   text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     height: 100%;
 }
@@ -48,9 +49,7 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-.box_logo img{
-    height: 100%;
-}
+
 .box_logo input{
     width: 100%;
     border-radius: 20px;
@@ -61,7 +60,7 @@ header{
 .button_login{
     color: var(--blue);
     border: 1px solid var(--blue);
-    margin-left: 1rem;
+    margin-left:auto;
 }
 .button_phone{
     display: none;
@@ -203,5 +202,24 @@ position: absolute;
 top: 10%;
 }
 button{
-    padding: 0 7px;
+padding: 0 7px;
+}
+
+.containerProducts{
+display:grid;
+justify-content:space-around;
+margin:20px auto;
+}
+
+.titleProduct{
+display:flex;
+justify-content:space-between
+}
+
+.productCart{
+gap:.2rem;
+}
+.productById{
+width:100%;
+display:flex;
 }

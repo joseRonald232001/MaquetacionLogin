@@ -1,9 +1,5 @@
 .container{
-    max-width: 1950px;
-    padding: 0 5rem;
-}
-html{
-    font-size: 62.5%;
+padding:1rem;
 }
 /*SECTION HEADER*/
 .box_header{
@@ -124,4 +120,39 @@ height: 8rem;
     background: var(--blue);
     color: var(--white);
     height: 5.6rem;
+}
+
+.containerProducts{
+grid-template-columns: repeat(auto-fill, minmax(230px,1fr));
+gap:20px;
+}
+
+.productCart{
+display:flex;
+flex-direction:column;
+}
+
+.productCart img{
+width:100%;
+object-fit: cover;
+}
+
+.titleProductsSimilares{
+font-size:3rem;
+}
+
+.productById img {
+width:50%;
+max-width:460px;
+ }
+
+.productById .productDescriptionById{
+height:min-content;
+width:50%;
+align-self:center;
+margin-left:5rem;
+}
+
+.productDescriptionById h3{
+font-size:3rem
 }
